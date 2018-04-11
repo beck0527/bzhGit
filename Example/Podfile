@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BzhDemo_Example' do
+  pod 'BzhDemo', :path => '../'
+
+  target 'BzhDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

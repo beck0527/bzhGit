@@ -1,0 +1,6 @@
+framework module BzhDemo {
+  umbrella header "BzhDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
