@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TestClass.h"
 
 FOUNDATION_EXPORT double BzhDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char BzhDemoVersionString[];

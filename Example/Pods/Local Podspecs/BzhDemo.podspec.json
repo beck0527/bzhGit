@@ -2,7 +2,6 @@
   "name": "BzhDemo",
   "version": "0.1.0",
   "summary": "A short description of BzhDemo.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/beck0527/BzhDemo",
   "license": {
     "type": "MIT",
@@ -12,11 +11,12 @@
     "beck0527": "baozhenhua@timeface.cn"
   },
   "source": {
-    "git": "https://github.com/beck0527/BzhDemo.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/beck0527/BzhDemo.git"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BzhDemo/Classes/**/*"
+  "source_files": "BzhDemo/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit"
 }
